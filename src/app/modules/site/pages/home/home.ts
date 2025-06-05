@@ -5,7 +5,7 @@ import { AgentList } from "../../../agent/components/agent-list/agent-list";
 
 @Component({
   selector: 'app-home',
-  imports: [RouterLink, AgentList],
+  imports: [ AgentList],
   templateUrl: './home.html'
 })
 export class Home {
